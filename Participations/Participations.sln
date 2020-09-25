@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First WPF Application", "WP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFParticipation", "WPFParticipation\WPFParticipation.csproj", "{5635E09F-88FB-4FCA-8FE6-0E04DA4084C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF1", "WPF1\WPF1.csproj", "{7935B6DB-C59D-4D97-AD1C-DF8EEC8C7800}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF1", "WPF1\WPF1.csproj", "{7935B6DB-C59D-4D97-AD1C-DF8EEC8C7800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Classes2", "WPF-Classes2\WPF-Classes2.csproj", "{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7935B6DB-C59D-4D97-AD1C-DF8EEC8C7800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7935B6DB-C59D-4D97-AD1C-DF8EEC8C7800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7935B6DB-C59D-4D97-AD1C-DF8EEC8C7800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
