@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF1", "WPF1\WPF1.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Classes2", "WPF-Classes2\WPF-Classes2.csproj", "{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONPokemon", "JSONPokemon\JSONPokemon.csproj", "{66F20366-CD31-47B1-BD65-5E1BD70CD3D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DBAA3BD-8F46-42F0-BEAB-F45305145AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F20366-CD31-47B1-BD65-5E1BD70CD3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F20366-CD31-47B1-BD65-5E1BD70CD3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F20366-CD31-47B1-BD65-5E1BD70CD3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F20366-CD31-47B1-BD65-5E1BD70CD3D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
