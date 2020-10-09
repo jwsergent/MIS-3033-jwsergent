@@ -9,7 +9,7 @@
     <Grid>
         <Image Margin="0,0,-0.4,0" Source="Image1.png" Stretch="Fill"/>
         <ComboBox x:Name="cboCategories" HorizontalAlignment="Left" Margin="25,46,0,0" VerticalAlignment="Top" Width="150" SelectionChanged="cboCategories_SelectionChanged"/>
-        <Label Content="Quote Categories" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Height="31" Width="150" Background="#FFEE8215" HorizontalContentAlignment="Center"/>
+        <Label Content="Joke Categories" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Height="31" Width="150" Background="#FFEE8215" HorizontalContentAlignment="Center"/>
         <TextBlock x:Name="txtJoke" HorizontalAlignment="Left" Margin="499,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="97" Width="195" Background="#FFC51515" Padding="0" UseLayoutRounding="False"/>
         <Button x:Name="btnGenerate" Content="Generate Quote" HorizontalAlignment="Left" Margin="197,32,0,0" VerticalAlignment="Top" Width="93" Height="22" Click="btnGenerate_Click"/>
 

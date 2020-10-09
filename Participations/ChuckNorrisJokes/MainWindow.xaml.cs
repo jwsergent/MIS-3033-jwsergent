@@ -22,11 +22,13 @@ namespace ChuckNorrisJokes
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+        
         public MainWindow()
         {
             InitializeComponent();
 
-            
+            txtJoke.IsEnabled = false;
 
             string[] cats;
 
@@ -46,6 +48,8 @@ namespace ChuckNorrisJokes
 
             
         }
+
+        
 
         private void cboCategories_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -70,7 +74,7 @@ namespace ChuckNorrisJokes
             }
             else
             {
-                string jokeurl = "https://api.chucknorris.io/jokes/random?category=" + "{" + selectedcategory + "}";
+                string jokeurl = "https://api.chucknorris.io/jokes/random?category=" + selectedcategory;
 
                 Joke NewJoke;
 
@@ -86,6 +90,9 @@ namespace ChuckNorrisJokes
             
         }
 
-        
+        private void btnGenerate_Click(object sender, RoutedEventArgs e)
+        {
+            txtJoke.IsEnabled=true;
+        }
     }
 }
