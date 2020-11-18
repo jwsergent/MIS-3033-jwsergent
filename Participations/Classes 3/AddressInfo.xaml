@@ -1,0 +1,13 @@
+﻿<Window x:Class="Classes_3.AddressInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Classes_3"
+        mc:Ignorable="d"
+        Title="AddressInfo" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtAddressInfo" HorizontalAlignment="Left" Height="113" Margin="166,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="437" TextChanged="txtAddressInfo_TextChanged"/>
+
+    </Grid>
+</Window>
